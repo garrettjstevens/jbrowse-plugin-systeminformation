@@ -1,4 +1,4 @@
-# jbrowse-plugin-template
+# jbrowse-plugin-systeminformation
 
 > Template to quickly start a new JBrowse plugin
 
