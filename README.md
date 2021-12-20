@@ -4,6 +4,8 @@ This is a basic JBrowse 2 plugin that demonstrates how you can have a plugin
 that has both JBrowse Web and JBrowse Desktop builds, with the JBrowse Desktop
 build having extra desktop-specific functionality.
 
+## About
+
 On the web, this plugin displays a bit of basic system information like browser
 version, system OS, and CPU architecture (based on `window.userAgent`).
 
@@ -26,3 +28,13 @@ functionality:
   - See an example in
   [`SystemInformationView.tsx`](./src/SystemInformationView/components/SystemInformationView.tsx) where
   `import('systeminformation')` is used.
+
+## Screenshots
+
+### Web
+
+![Plugin as seen on JBrowse Web](./img/web.png)
+
+### Desktop
+
+![Plugin as seen on JBrowse Desktop](./img/desktop.png)
