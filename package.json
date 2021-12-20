@@ -56,18 +56,21 @@
     "trailingComma": "all"
   },
   "dependencies": {
+    "@material-ui/icons": "^4.11.2",
     "regenerator-runtime": "^0.13.9",
-    "tslib": "^2.3.1"
+    "systeminformation": "^5.9.17",
+    "tslib": "^2.3.1",
+    "ua-parser-js": "^1.0.2"
   },
   "peerDependencies": {
-    "@jbrowse/core": "^1.5.1"
+    "@jbrowse/core": "^1.5.2"
   },
   "devDependencies": {
     "@babel/core": "^7.16.5",
     "@babel/preset-react": "^7.10.4",
     "@jbrowse/cli": "^1.5.1",
-    "@jbrowse/core": "^1.5.1",
-    "@jbrowse/development-tools": "^1.5.1",
+    "@jbrowse/core": "^1.5.2",
+    "@jbrowse/development-tools": "^1.5.2",
     "@material-ui/core": "^4.9.13",
     "@material-ui/lab": "^4.0.0-alpha.45",
     "@schemastore/package": "^0.0.6",
@@ -77,6 +80,7 @@
     "@types/react": "^17.0.0",
     "@types/testing-library__jest-dom": "^5.14.2",
     "@types/testing-library__react": "^10.2.0",
+    "@types/ua-parser-js": "^0.7.36",
     "@typescript-eslint/eslint-plugin": "^4.0.0",
     "@typescript-eslint/parser": "^4.0.0",
     "babel-eslint": "^10.0.0",

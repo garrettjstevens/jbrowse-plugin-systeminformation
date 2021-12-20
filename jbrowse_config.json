@@ -2,7 +2,8 @@
   "plugins": [
     {
       "name": "Systeminformation",
-      "url": "http://localhost:9000/dist/jbrowse-plugin-systeminformation.umd.development.js"
+      "url": "http://localhost:9000/dist/jbrowse-plugin-systeminformation.umd.development.js",
+      "cjsUrl": "http://localhost:9000/dist/jbrowse-plugin-systeminformation.cjs.js"
     }
   ]
 }
